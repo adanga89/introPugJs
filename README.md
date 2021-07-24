@@ -3,7 +3,7 @@
 
  ***PugJS*** es un **Template Engine** o **Motor de Plantillas**.
 
-### **¿Qué es un Motor de Plantillas o Template Engine?**
+### :question: **¿Qué es un Motor de Plantillas o Template Engine?**
  Es una tecnología que permite generar toda la estructura HTML para los sitios web, es decir, una forma en la que puedes realizar modificaciones de código HTML más fácil.
     
  Algunos ejeplos de Motor de Plantilas son:
@@ -17,10 +17,10 @@
 
  Lo anterior, no quiere decir que sean especificamente de ese Framework  o lenguaje, si no que son los mas utilizados con los mencionados, y tampoco quiere decir que sean los únicos, existen muchos más.
 
- ## **Primeros pasos**
-  ### ***¿Cómo instalar PugJS?***
+ ## **Primeros pasos** :walking_man:
+  ### :triangular_flag_on_post: ***¿Cómo instalar PugJS?***
 
-  **Paso 1: Instalación NodeJS**
+  :hammer_and_wrench: **Paso 1: Instalación NodeJS** 
 
   De Primera instancias es necesario tener instalado [NodeJS](https://nodejs.org/), descargas la versión, dependiendo de tu sistema operativo e instalas el paquete.
 
@@ -35,7 +35,7 @@
 
 Cualquiera de los dos comandos anteriores te ayudaran a visualizar la versión de node que tienes instalada.
 
- **Paso 2: Instalación de PugJS**
+ :construction_worker_man: **Paso 2: Instalación de PugJS**
 
  Para instalar PugJS, debes de ejecutar la siguiente linea de comando en tu terminal:
 ```
@@ -45,11 +45,11 @@ o en su caso
 ```
     npm install global pug-cli
 ```
- ***Paso 3: Crear un archivo PUG***
+ :office_worker: ***Paso 3: Crear un archivo PUG***
 
  Para crear un archivo Pug, es necesario solo colocar la extensión _**.pug**_,  por ejemplo _**index.pug**_
 
- ***Paso 4: Escribir el ontenido del archivo PUG***
+ :memo: ***Paso 4: Escribir el contenido del archivo PUG***
 
  ¿Cuál es la sintaxis de los archivos PUG?, bueno, en la página oficial tienen varios casos, su link es el siguiente [PugJS](https://pugjs.org/language/plain-text.html), este link es para visualizar una sintaxis de texto plano.
 
@@ -82,9 +82,9 @@ index.html (Archivo después de la compilación)
         </body>
     </html>
 ```
-Como te habás dado cuenta, los archivos _.pug_ son similares a los archivos _HTML_, la diferencia radica en que, los archivos _.pug_ no son etiquetas como tal, mas bien solo son el nombre de la etiqueta HTML, pero al compilar este archivo, este lo compila en lenguaje HTML.
+Como te habrás dado cuenta, los archivos _.pug_ son similares a los archivos _HTML_, la diferencia radica en que, los archivos _.pug_ no son etiquetas como tal, mas bien solo son el nombre de la etiqueta HTML, pero al compilar este archivo, este crea un archivo con el lenguaje HTML.
 
- ***Paso 5: Compilar Archivo PUG***
+ :mechanic: ***Paso 5: Compilar Archivo PUG***
 
  Existen varios compiladores para el Motor de Plantillas PugJS, pero, ¿para qué quiero compilar el archivo PUG?. Recordemos que Pug es un motor de plantillas, no es la plantilla HTML como la conocemos, asi que es necesario compilar el archivo Pug para poder visualizar el contenido en un servidor o por lo menos en un archivo HTML.
 
@@ -107,4 +107,4 @@ Comando para compilar todos los archivos .pug de un directorio.
     pug nombreDelDirectorio
 ```
 
-# [Sintaxis Básica](Sintaxis/README.md)
+# :black_nib: [Sintaxis Básica](Sintaxis/README.md)
