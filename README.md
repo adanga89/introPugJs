@@ -25,23 +25,26 @@
   De Primera instancias es necesario tener instalado [NodeJS](https://nodejs.org/), descargas la versión, dependiendo de tu sistema operativo e instalas el paquete.
 
   Para saber si tienes correctamente instalado [NodeJS](https://nodejs.org/), tienes que abrir la **Terminal** de linea de comandos, (CMD, PowerShell, Git Bash) y ejecutas la siguiente linea.
-    
+```
     npm -v
+```
  o en su caso
-
+```
     npm --version
+```
 
 Cualquiera de los dos comandos anteriores te ayudaran a visualizar la versión de node que tienes instalada.
 
  **Paso 2: Instalación de PugJS**
 
  Para instalar PugJS, debes de ejecutar la siguiente linea de comando en tu terminal:
-    
+```
     npm i -g pug-cli 
+```
 o en su caso
-
+```
     npm install global pug-cli
-
+```
  ***Paso 3: Crear un archivo PUG***
 
  Para crear un archivo Pug, es necesario solo colocar la extensión _**.pug**_,  por ejemplo _**index.pug**_
@@ -53,7 +56,7 @@ o en su caso
  En la siguientes lineas se muestra como excribir un Hola Mundo en un archivo Pug y como se muestra el archivo después de compilarlo.
 
 index.pug
-    
+```    
     doctype html
     html(lang="en")
         head
@@ -63,9 +66,9 @@ index.pug
             title Document
         body 
             h1 Hola Mundo!!!
-
+```
 index.html (Archivo después de la compilación)
-    
+```    
     <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -78,7 +81,7 @@ index.html (Archivo después de la compilación)
             <h1>Hola Mundo!!!</h1>
         </body>
     </html>
-
+```
 Como te habás dado cuenta, los archivos _.pug_ son similares a los archivos _HTML_, la diferencia radica en que, los archivos _.pug_ no son etiquetas como tal, mas bien solo son el nombre de la etiqueta HTML, pero al compilar este archivo, este lo compila en lenguaje HTML.
 
  ***Paso 5: Compilar Archivo PUG***
@@ -88,17 +91,20 @@ Como te habás dado cuenta, los archivos _.pug_ son similares a los archivos _HT
  Para compiilar un archivo Pug a HTML existen los siguientes comandos:
 
  Comando para compilar un solo archivo.
-
+```
     pug nombreDelArchivo 
     Ejemplo:
-    pig index.pug
- 
+    pug index.pug
+``` 
  Comando para estar a la escucha de cualquier cambio que tenga el archivo .pug y compilarlo inmediatamente
-    
+```    
     pug -w nombreDelArchivo
     Ejemplo:
     pug -w index.pug
-
+```
 Comando para compilar todos los archivos .pug de un directorio.
-
+```
     pug nombreDelDirectorio
+```
+
+# [Sintaxis Básica](Sintaxis/README.md)
