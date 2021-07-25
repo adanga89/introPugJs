@@ -108,3 +108,4 @@ pug nombreDelDirectorio
 ```
 
 # :black_nib: [Sintaxis Básica](Sintaxis/README.md)
+# :black_nib: [JavaScript en PUG](JS/README.md)
