@@ -26,11 +26,11 @@ De Primera instancias es necesario tener instalado [NodeJS](https://nodejs.org/)
 
 Para saber si tienes correctamente instalado [NodeJS](https://nodejs.org/), tienes que abrir la **Terminal** de línea de comandos, (CMD, PowerShell, Git Bash) y ejecutas lo siguiente.
 ```
-npm -v
+node -v
 ```
 o en su caso
 ```
-npm --version
+node --version
 ```
 
 Cualquiera de los dos comandos anteriores te ayudara a visualizar la versión de node que tienes instalada.
